@@ -6,7 +6,9 @@ to run api: python api_v1.py
 to run unit test: python api_v1_test.py
 
 api desc
+
 ---------------users reslated---------------
+
 get all users
 [GET] http://localhost:5000/api/users
 
@@ -33,6 +35,7 @@ get all orders by user id
 [GET] http://localhost:5000/api/users/1/orders
 
 ---------------items reslated---------------
+
 get all items
 [GET] http://localhost:5000/api/items
 
@@ -56,6 +59,7 @@ delte item
 [DELETE] http://localhost:5000/api/items/4
 
 ---------------orders reslated---------------
+
 get order by id
 [GET] http://localhost:5000/api/orders/1
 
