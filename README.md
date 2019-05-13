@@ -16,6 +16,7 @@ create user
 [POST] http://localhost:5000/api/users
 
 [BODY]
+
 {
 	"name": "user1"
 }
